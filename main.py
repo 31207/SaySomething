@@ -75,5 +75,5 @@ if __name__ == '__main__':
     elif len(sys.argv) == 2:
         add_saying(sys.argv[1])
     else:
-        print('shit')
+        print('fuckyou')
 
