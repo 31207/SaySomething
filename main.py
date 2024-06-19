@@ -53,8 +53,8 @@ def gui():
     # 创建按钮
     def button_click():
         user_input = entry.get()  # 获取输入框中的文本内容
-        print("用户输入:", user_input)
-    button = tk.Button(wnd, text="点击我", command=button_click)
+        add_saying(user_input)
+    button = tk.Button(wnd, text="提交", command=button_click)
     button.pack(pady=10)
     # 创建按钮点击事件处理函数
 
